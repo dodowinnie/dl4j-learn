@@ -30,6 +30,7 @@ public class IrisClassifier {
             FileSplit fileSplit = new FileSplit(new File("data/iris.txt"));
             Configuration entries = new Configuration();
 
+
             recordReader.initialize(fileSplit);
 
             int labelIndex = 5;
