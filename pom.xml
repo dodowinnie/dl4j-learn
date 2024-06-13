@@ -15,6 +15,8 @@
         <dl4j-master.version>1.0.0-M2.1</dl4j-master.version>
         <logback.version>1.2.3</logback.version>
         <java.version>1.8</java.version>
+        <jcommon.version>1.0.23</jcommon.version>
+        <jfreechart.version>1.0.13</jfreechart.version>
     </properties>
 
     <dependencies>
@@ -82,6 +84,17 @@
             <artifactId>arrow-memory-netty</artifactId>
             <version>15.0.0</version>
             <scope>runtime</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>jfree</groupId>
+            <artifactId>jfreechart</artifactId>
+            <version>${jfreechart.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jfree</groupId>
+            <artifactId>jcommon</artifactId>
+            <version>${jcommon.version}</version>
         </dependency>
 
 
