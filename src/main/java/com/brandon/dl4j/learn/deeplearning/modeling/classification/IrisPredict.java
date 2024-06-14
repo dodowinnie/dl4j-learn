@@ -17,6 +17,7 @@ public class IrisPredict {
 //        INDArray example = Nd4j.create(new double[][]{{10.8,2.6,4.0,1.2}});
 //        int[] predict = model.predict(example);
 //        System.out.println(Arrays.toString(predict));
+        VGG16 build = VGG16.builder().build();
 
     }
 }

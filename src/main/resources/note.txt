@@ -1,0 +1,1 @@
+Deeplearning4j以MultiLayerConfiguration开始，组织层和超参数

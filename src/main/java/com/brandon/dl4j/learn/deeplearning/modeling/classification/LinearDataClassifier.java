@@ -73,7 +73,6 @@ public class LinearDataClassifier {
         System.out.println(summary);
 
         model.fit(trainIter, nEpochs);
-        model.fit();
         System.out.println("Evaluate model....");
         Evaluation evaluate = model.evaluate(testIter);
         System.out.println(evaluate.stats());
